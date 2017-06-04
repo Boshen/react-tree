@@ -5,6 +5,7 @@
   "dependencies": {
     "d3-hierarchy": "^1.1.4",
     "d3-path": "^1.0.5",
+    "gh-pages": "^1.0.0",
     "lodash.uniqueid": "^4.0.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
@@ -17,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build && gh-pages -d build"
   }
 }
