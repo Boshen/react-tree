@@ -1,0 +1,22 @@
+{
+  "name": "react-tree",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3-hierarchy": "^1.1.4",
+    "d3-path": "^1.0.5",
+    "lodash.uniqueid": "^4.0.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
